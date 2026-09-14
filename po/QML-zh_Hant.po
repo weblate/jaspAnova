@@ -6,6 +6,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Language: zh_Hant\n"
 "X-Qt-Contexts: true\n"
+"PO-Revision-Date: 2026-09-15 04:04+0000\n"
+"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspanova-qml/zh_Hant/>\n"
+"Language: zh_Hant\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 msgctxt "Description|"
 msgid "ANOVA"
@@ -3050,13 +3056,13 @@ msgstr "殘差服從多變量常態分布。"
 
 msgctxt "SimpleMainEffects|"
 msgid "Effect size estimates"
-msgstr ""
+msgstr "效應量估計值"
 
 msgctxt "SimpleMainEffects|"
 msgid ""
 "By selecting this option, the specific types of calculations to estimate the "
 "effect size of the simple main effects can be specified."
-msgstr ""
+msgstr "選取此選項後，即可指定用於估計單純主要效果效應量的特定計算方式。"
 
 #, fuzzy
 msgctxt "SimpleMainEffects|"
@@ -3069,6 +3075,9 @@ msgid ""
 "variance accounted for by the simple main effect, compared to partial η², "
 "derived from the F statistic. Computed using the effectsize R package."
 msgstr ""
+"淨 ω²（ ω²p）是對「單純主要效果所解釋的變異比例」較不偏誤的估計值，相較於淨 η"
+"²，其估計結果較不具偏誤，並由 F 統計量推導而得。使用 effectsize R 套件進行計"
+"算。"
 
 #, fuzzy
 msgctxt "SimpleMainEffects|"
@@ -3082,6 +3091,9 @@ msgid ""
 "(SS_effect + SS_error), derived from the F statistic. Computed using the "
 "effectsize R package."
 msgstr ""
+"淨 η²（η²p）是指在排除誤差項變異後，單純主要效果所解釋的變異比例："
+"SS_effect / (SS_effect + SS_error)，由 F 統計量推導而得。使用 effectsize R 套"
+"件進行計算。"
 
 #, fuzzy
 msgctxt "SimpleMainEffects|"
